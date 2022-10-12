@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Josefin Slab', serif;
+}
+.heading{
+    margin-left: 50px;
+    margin-right: 80px;
+    display: flex;
+    justify-content:space-between;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+.input{
+    margin-bottom: 50px;
+    
+}
+#todo{
+  width: 500px;
+  height: 22px;
+  border-radius:5px;
+  border-color: black;
+  padding: 10px;
+}
+#btn{
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+}
+#btn:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+.list{
+    display: flex;
+   
+    width: 600px;
+}
+
+.items{
+   
+    padding: 5px;
+    font-size: 17px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    width: 580px;
+    height: 40px;
+    margin: 6px;
+    background-color: #28282B;
+    color: white;
+    position: relative;
+    
+}
+
+.white{
+    background-color: white;
+}
+.output{
+    width: 800px;
+    
+}
+.deletBtn{
+    position: absolute;
+    left: 510px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.deletBtn:hover{
+    border-style: solid;
+}
+.complete-button{
+    position: absolute;
+    left: 560px;
+    background-color:white;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+.complete-button:hover{
+    border-style: solid;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.fa-square-check,.fa-trash-can{
+    pointer-events: none;
+}
+.completed{
+    opacity: 20%;
+}
